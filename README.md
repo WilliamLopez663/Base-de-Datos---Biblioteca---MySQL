@@ -86,4 +86,12 @@ Asigno un id entero autoincremental como llave primaria y las columnas nombre y 
 </p>
 <br>
 
+## Creando el modelo
+- Para crear el modelo simplemente doy en la opcion del menu database en Reverse Enginer y creo el modelo a partir de mi tabla biblioteca y este es el resultado.
+
+- Por ultimo creo la conexión entre la tabla prestamos y la tabla usuarios y entre la tabla prestamos y la tabla libros:
+<p align="center">
+	<img src="https://raw.githubusercontent.com/WilliamLopez663/Base-de-Datos---Biblioteca---MySQL/main/assets/images/modelo-final.PNG">
+</p>
+
 
