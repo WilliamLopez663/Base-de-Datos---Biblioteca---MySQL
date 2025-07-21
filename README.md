@@ -57,5 +57,11 @@ Asigno un id entero autoincremental como llave primaria y las columnas nombre y 
 </p>
 <br>
 
+- De esta forma se visualizan las tablas en la base de datos:
+<p align="center">
+	<img src="https://raw.githubusercontent.com/WilliamLopez663/WilliamLopez663/main/images/visualización2.PNG">
+</p>
+<br>
+
 ## Creando conexiones entre tablas
 - 
