@@ -59,7 +59,7 @@ Asigno un id entero autoincremental como llave primaria y las columnas nombre y 
 
 - De esta forma se visualizan las tablas en la base de datos:
 <p align="center">
-	<img src="https://raw.githubusercontent.com/WilliamLopez663/Base-de-Datos---Biblioteca---MySQL/main/assets/images/visualización2.PNG">
+	<img src="https://raw.githubusercontent.com/WilliamLopez663/Base-de-Datos---Biblioteca---MySQL/main/assets/images/visualizando2.PNG">
 </p>
 <br>
 
