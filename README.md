@@ -2,10 +2,13 @@
 En este proyecto documentaré el proceso para realizar una base de datos en MySQL usando la herramienta MysSQL Workbench 
 
 ## Creando base de datos y tablas
-- Usar la opcion nuevo esquema para crear una nueva base de datos que llamaré biblioteca:
+Creando la base de datos y las tablas
+
+- Creando la base de datos biblioteca:
 <p align="center">
 	<img src="https://raw.githubusercontent.com/WilliamLopez663/Base-de-Datos---Biblioteca---MySQL/main/assets/images/new-schema.PNG">
 </p>
+Es importante tener en cuenta que no exista otra base da datos con el mismo nombre.
 <br>
 
 - Creando la tabla editoriales:
@@ -64,4 +67,23 @@ Asigno un id entero autoincremental como llave primaria y las columnas nombre y 
 <br>
 
 ## Creando conexiones entre tablas
-- 
+- Creando conexión entre tablas utilizando llaves foráneas
+- Aquí creo dos conexiones entre la tabla libros y la tabla editoriales y entre la tabla libros y la tabla categorias:
+<p align="center">
+	<img src="https://raw.githubusercontent.com/WilliamLopez663/Base-de-Datos---Biblioteca---MySQL/main/assets/images/llave-foranea-libros-editorial-categoria.PNG">
+</p>
+<br>
+
+- Aquí creo dos conexiones entre la tabla libro_autor y la tabla libros y entre la tabla libro-autor con la tabla autores:
+<p align="center">
+	<img src="https://raw.githubusercontent.com/WilliamLopez663/Base-de-Datos---Biblioteca---MySQL/main/assets/images/llave-foranea-libro-autor-libros-autores.PNG">
+</p>
+<br>
+
+- Por ultimo creo la conexión entre la tabla prestamos y la tabla usuarios y entre la tabla prestamos y la tabla libros:
+<p align="center">
+	<img src="https://raw.githubusercontent.com/WilliamLopez663/Base-de-Datos---Biblioteca---MySQL/main/assets/images/llave-foranea-prestamo-usuario-libro.PNG">
+</p>
+<br>
+
+
