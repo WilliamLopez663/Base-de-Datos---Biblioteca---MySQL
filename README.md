@@ -1,7 +1,7 @@
-# Base de Datos Biblioteca MySQL
+# :books: Base de Datos Biblioteca MySQL
 En este proyecto documentaré el proceso para realizar una base de datos en MySQL usando la herramienta MysSQL Workbench 
 
-## Creando base de datos y tablas
+## :pencil: Creando base de datos y tablas
 Creando la base de datos y las tablas
 
 - Creando la base de datos biblioteca:
@@ -66,7 +66,7 @@ Asigno un id entero autoincremental como llave primaria y las columnas nombre y 
 </p>
 <br>
 
-## Creando conexiones entre tablas
+## :key: Creando conexiones entre tablas
 - Creando conexión entre tablas utilizando llaves foráneas
 - Aquí creo dos conexiones entre la tabla libros y la tabla editoriales y entre la tabla libros y la tabla categorias:
 <p align="center">
@@ -86,7 +86,7 @@ Asigno un id entero autoincremental como llave primaria y las columnas nombre y 
 </p>
 <br>
 
-## Creando el modelo
+## 🗃️Creando el modelo
 - Para crear el modelo simplemente doy en la opcion del menu database en Reverse Enginer y creo el modelo a partir de mi tabla biblioteca y este es el resultado.
 
 - Por ultimo creo la conexión entre la tabla prestamos y la tabla usuarios y entre la tabla prestamos y la tabla libros:
